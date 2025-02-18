@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="current-weather">
+            <h1>Clima Actual</h1>
+            <button id="get-location">Obtener Clima por Ubicación</button>
+            <div id="location-info"></div>
+        </div>
+        <div id="search-weather">
+            <h1>Buscar Clima</h1>
+            <input type="text" id="city-search" placeholder="Escribe el nombre de la ciudad...">
+            <ul id="suggestions"></ul>
+            <button id="search-button">Buscar</button>
+            <div id="search-results"></div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
